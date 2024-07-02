@@ -1,0 +1,98 @@
+body{
+    width: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: palegoldenrod;
+}
+.header nav ul{
+    display: flex;
+    gap:150px;
+   justify-content: center;
+    list-style-type: none;
+    background-color: darkgoldenrod;
+    width: 900px;
+    height: 40px;
+    margin-left: 31px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header nav ul li a:hover, footer a:hover{
+    color: brown;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article h3,article h1{
+    color: brown;
+    font-weight: bold;
+}
+article h1{
+    text-shadow: 5px 5px 5px black;
+}
+.biografija{
+    display: flex;
+    gap: 40px;
+}
+.biografija img{
+    width: 250px;
+    height: 250px;
+}
+div.text{
+    width: 250px;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    width: 935px;
+    height: 40px;
+    margin-left: 31px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+#edukacija{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ed img{
+    width: 200px;
+    height: 200px;
+}
+#edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+#edu p{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+}
